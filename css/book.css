@@ -1,0 +1,359 @@
+@-webkit-keyframes movemove {
+	0% {
+		top: 0px;
+		left: 0px;
+	}
+	50% {
+		top: 0px;
+		left: 5px;
+	}
+
+}
+
+@-webkit-keyframes surface {
+	0% {
+		top: 0px;
+		left: 0px;
+	}
+	50% {
+		top: 5px;
+		left: 5px;
+	}
+}
+
+@-webkit-keyframes rotateYo {
+	0% {
+		-webkit-transform: rotate(10deg);
+	}
+	100%{
+		-webkit-transform: rotate(370deg);
+	}
+}
+
+@-webkit-transform bling {
+	0% {
+		-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	}
+	100% {
+		-webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+	}
+}
+
+.book {
+	position: relative;
+	height: auto;
+	margin: 49px;
+}
+
+.front-cover:hover {
+	-webkit-animation: rotateYo ease-in-out 0.8s 1;
+	_-webkit-transform: rotate(30deg);
+	_-webkit-transform: translate(5px, 5px);
+}
+.front-cover {
+
+	-webkit-transform: skew(-10deg, 10deg);
+	position: relative;
+
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	border-width: 1px;
+	width: 200px;
+	height: 282px;
+
+	border-top-right-radius: 8px;
+
+	box-shadow: 1px 1px 6px;
+}
+
+.front-title {
+	padding: 2px 5px 2px 5px;
+	position: relative;
+	left: 16px;
+	top: 45px;
+	width: 168px;
+	background-color: rgb(236, 236, 236);
+
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: break-word;
+	font-size: 20px;
+}
+
+.front-author {
+	position: relative;
+	left: 120px;
+	top: 50px;
+	width: 60px;
+}
+
+.front-date {
+	position: absolute;
+	left: 49px;
+	width: 120px;
+	bottom: 20px;
+}
+
+.front-footer {
+	height: 5px;
+	border: solid 1px #222;
+	position: absolute;
+	width: 200px;
+	bottom: -5px;
+	background-image: -webkit-gradient(linear,left top,right top,color-stop(0.02, #aaa),color-stop(0.50, #eee),color-stop(1.0, #aaa));
+}
+
+.front-left-border {
+	height: 5px;
+	border: solid 1px #222;
+	position: absolute;
+	width: 10px;
+	bottom: 50px;
+	left: -5px;
+	background-image: -webkit-gradient(linear,left top,right top,color-stop(0.02, #aaa),color-stop(0.50, #eee),color-stop(1.0, #aaa));
+}
+
+.card {
+	position: relative;
+	margin: 49px;
+}
+
+.card-panel {
+	width: 382px;
+	height: 649px;
+	border: 1px solid #CCC;
+	background: #fff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-webkit-transition: all 0.2s ease-out;
+}
+
+.card-panel:hover {
+	-webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.9);
+}
+
+.card-background {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.card-title {
+	color: #7F8C8D;
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.card-content {
+	text-align: left;
+	height: 420px;
+	padding: 18px;
+
+	font-size: 16px;
+}
+
+.microsoft-logo {
+	position: relative;
+	background-color: #EEEEEE;
+	width: 240px;
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+.microsoft-logo-part {
+	width: 105px;
+	height: 105px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+}
+
+#microsoft-red {
+	background-color: #F25022;
+}
+
+#microsoft-yellow {
+	background-color: #FFB900;
+}
+
+#microsoft-blue {
+	background-color: #00A4EF;
+}
+
+#microsoft-green {
+	background-color: #7FBA00;
+}
+
+.windows8-logo {
+	position: relative;
+	background-color: white;
+	width: 249px;
+	height: 249px;
+	margin-bottom: 20px;
+}
+
+.windows8-logo-part-left {
+	background-color: white;
+	width: 104px;
+	height: 114px;
+	float: left;
+	margin: 4px 0px 0px 4px;
+}
+
+.windows8-logo-part-right {
+	background-color: white;
+	width: 124px;
+	height: 114px;
+	float: left;
+	margin: 4px 0px 0px 4px;
+}
+
+#windows8-logo-part1-1 {
+	position: relative;
+	height: 65px;
+	top: 20px;
+	-webkit-transform:skewY(-6deg);
+}
+#windows8-logo-part1-2 {
+	position: relative;
+	height: 49px;
+}
+#windows8-logo-part2-1 {
+	position: relative;
+	height: 65px;
+	top: 7px;
+	-webkit-transform:skewY(-6deg);
+}
+#windows8-logo-part2-2 {
+	position: relative;
+	height: 49px;
+}
+#windows8-logo-part3-1 {
+	position: relative;
+	height: 85px;
+}
+#windows8-logo-part3-2 {
+	position: relative;
+	height: 20px;
+	bottom: 10px;
+	-webkit-transform:skewY(6deg);
+}
+#windows8-logo-part4-1 {
+	position: relative;
+	height: 85px;
+}
+#windows8-logo-part4-2 {
+	position: relative;
+	height: 40px;
+	bottom: 17px;
+	-webkit-transform:skewY(6deg);
+}
+
+.windows8-logo-blue {
+	background-color: #00ADEF;
+}
+
+.windows8-logo2 {
+	position: relative;
+	padding-top: 30px;
+	width: 260px;
+	height: 220px;
+	margin-bottom: 20px;
+}
+
+#windows8-logo2-yellow {
+	width: 32px;
+}
+
+#windows8-logo2-green {
+	width: 32px;
+}
+#windows8-logo2-red {
+	width: 32px;
+}
+#windows8-logo2-blue {
+	width: 110px;
+}
+
+.windows8-logo2-part {
+	float: left;
+	height: 20px;
+	margin-left: 4px;
+}
+
+#windows8-logo2-yellow-part1 {
+	position: relative;
+	top: 30px;
+	height: 50px;
+	-webkit-transform:skewY(8deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #FAAF18;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FAAF18), color-stop(1, #F7D50B));
+}
+
+#windows8-logo2-yellow-part2 {
+	position: relative;
+	bottom: -25px;
+	height: 55px;
+	-webkit-transform:skewY(-8deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #FAAF18;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FAAF18), color-stop(1, #F7D50B));
+}
+
+#windows8-logo2-green-part1 {
+	position: relative;
+	top: 24px;
+	height: 60px;
+	-webkit-transform:skewY(12deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #369E47;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #369E47), color-stop(1, #7DBA42));
+}
+
+#windows8-logo2-green-part2 {
+	position: relative;
+	bottom: -15px;
+	height: 60px;
+	-webkit-transform:skewY(-12deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #369E47;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #369E47), color-stop(1, #7DBA42));
+}
+
+#windows8-logo2-red-part1 {
+	position: relative;
+	top: 10px;
+	height: 80px;
+	-webkit-transform:skewY(15deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #F15F25;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #F15F25), color-stop(1, #F26924));
+}
+
+#windows8-logo2-red-part2 {
+	position: relative;
+	bottom: 10px;
+	height: 75px;
+	-webkit-transform:skewY(-15deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #F15F25;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #F15F25), color-stop(1, #F26924));
+}
+
+#windows8-logo2-blue-part1 {
+	position: relative;
+	top: 10px;
+	height: 80px;
+	-webkit-transform:skewY(15deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #0474BB;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0474BB), color-stop(1, #27AAE1));
+}
+
+#windows8-logo2-blue-part2 {
+	position: relative;
+	bottom: 25px;
+	height: 85px;
+	-webkit-transform:skewY(-15deg);
+	-webkit-box-shadow: -3px 3px 6px -2px #0474BB;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0474BB), color-stop(1, #27AAE1));
+}

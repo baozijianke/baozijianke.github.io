@@ -1,0 +1,135 @@
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+.chrome {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  position: relative;
+}
+.chrome:hover .parts {
+  animation: spin linear 0.3s infinite;
+  -webkit-animation: spin linear 0.3s infinite;
+}
+.chrome .parts {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #eee;
+}
+.chrome .parts > .part1, .chrome .parts > .part2, .chrome .parts > .part3 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+.chrome .parts > .part1:after, .chrome .parts > .part2:after, .chrome .parts > .part3:after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 200px;
+  width: 200px;
+  height: 20px;
+}
+.chrome .parts > .part1 {
+  background-color: #F06B59;
+  top: -163.20508px;
+  left: 19.28203px;
+  -webkit-transform: rotate(-390deg);
+  -moz-transform: rotate(-390deg);
+  -ms-transform: rotate(-390deg);
+  -o-transform: rotate(-390deg);
+  transform: rotate(-390deg);
+}
+.chrome .parts > .part1:after {
+  background-color: #F06B59;
+}
+.chrome .parts > .part1-fix {
+  position: absolute;
+  width: 69.45927px;
+  height: 393.9231px;
+  background-color: #F06B59;
+  top: -74.90007px;
+  left: 42.94329px;
+  -webkit-transform: rotate(-390deg);
+  -moz-transform: rotate(-390deg);
+  -ms-transform: rotate(-390deg);
+  -o-transform: rotate(-390deg);
+  transform: rotate(-390deg);
+}
+.chrome .parts > .part2 {
+  background-color: #FCD209;
+  top: 130.0px;
+  left: 250px;
+  -webkit-transform: rotate(-270deg);
+  -moz-transform: rotate(-270deg);
+  -ms-transform: rotate(-270deg);
+  -o-transform: rotate(-270deg);
+  transform: rotate(-270deg);
+}
+.chrome .parts > .part2:after {
+  background-color: #FCD209;
+}
+.chrome .parts > .part3 {
+  background-color: #4CB849;
+  top: 183.20508px;
+  left: -119.28203px;
+  -webkit-transform: rotate(-150deg);
+  -moz-transform: rotate(-150deg);
+  -ms-transform: rotate(-150deg);
+  -o-transform: rotate(-150deg);
+  transform: rotate(-150deg);
+}
+.chrome .parts > .part3:after {
+  background-color: #4CB849;
+}
+.chrome > .core {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 130px;
+  left: 130px;
+  border: 20px solid white;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #78addc), color-stop(100%, #0f5b95));
+  background: -webkit-linear-gradient(top, #78addc, #0f5b95);
+  background: -moz-linear-gradient(top, #78addc, #0f5b95);
+  background: -o-linear-gradient(top, #78addc, #0f5b95);
+  background: linear-gradient(top, #78addc, #0f5b95);
+}

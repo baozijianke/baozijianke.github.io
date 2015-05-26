@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'FZZYS';
+	src:url('../fonts/FZZYSK.ttf');
+	src:url('../fonts/FZZYSK.ttf') format('truetype');
+}  
+
+@font-face{
+	font-family: 'XHT';
+	src:url('../fonts/XinGothic-ZhangYue W6.otf');
+	src:url('../fonts/XinGothic-ZhangYue W6.otf') format('opentype');
+}
+@font-face{
+	font-family: '仿宋';
+	src:url('../fonts/方正仿宋繁体.ttf');
+	src:url('../fonts/方正仿宋繁体.ttf') format('truetype');
+}
+
+#VerticalLayout{
+  writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-o-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	-epub-writing-mode: vertical-rl;
+	
+	font-size: 1.5em;
+	font-family:"仿宋","MingLiU", Geneva, sans-serif;
+	font-weight:normal;
+	line-height:2em;
+	letter-spacing:0.2em;
+	color: #646464;
+	
+	overflow:hidden;
+	
+	_margin:20px 0px 20px 20px;
+	padding: 40px 40px 40px 40px;
+	
+	box-shadow:0px 0px 8px #333333;
+}
+
+#VerticalLayout p{
+	padding-left: 2em;
+	text-indent: 2.5em;
+}
+
+#VerticalTitle{
+	font-family: "FZZYS";
+	font-size: 3em;
+	color: #333333;
+	text-shadow: 0 1px 1px #888;
+}
+
+.forBlur{
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+
+img {
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+	margin-left: 40px;
+}
+
+body{
+	overflow:hidden;
+	font-size: 62.5%;
+}
