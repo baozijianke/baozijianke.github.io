@@ -1,0 +1,22 @@
+body {
+  margin: 0px 0px 0px 0px;
+}
+header {
+  height:relative;
+}
+#banner {
+  display:block;
+  position:relative;
+  background:url(header_pic.jpg) 50% 50% / cover no-repeat;
+}
+#banner:before {
+  box-sizing: inherit;
+}
+#banner:after {
+  box-sizing: inherit;
+}
+#dot-cover {
+  position:relative;
+  background:url(overlay.png);
+  background-color:rgba(108,108,108,.4);
+}
