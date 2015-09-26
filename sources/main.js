@@ -53,9 +53,7 @@ $(document).ready(function(){
 	  $('#quote-slider').flexslider({
 	    animation: "slide",
 	    directionNav: true,
-		controlNav: false,
-		prevText: "Previous",
-		nextText: "Next"
+		controlNav: true,
 	  });
 });
 
